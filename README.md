@@ -43,7 +43,7 @@ Do a fresh pull request since I've updated the remote.
 
 Create a new branch called 3-markdown
 
-https://github.com/PuddletownDesign/russ/blob/2-basic-html/index.html
+You want the content tags to closely match the index.html file linked above. Edit and push the file back for review. 
 
 ### 2nd Task
 
@@ -72,7 +72,7 @@ https://github.com/PuddletownDesign/russ/branches
 
 and it will be layed out like the chapters of a book
 
-There is a very handy cheaty way to do this fast :)
+### There is a very handy cheaty way to do this fast :)
 
 In the markdown editor you can import readme files out of branches by linking the github account
 
