@@ -74,7 +74,7 @@ and it will be layed out like the chapters of a book
 
 ### There is a very handy cheaty way to do this fast :)
 
-In the markdown editor you can import readme files out of branches by linking the github account
+In the markdown editor you can import readme files out of branches by linking the github account. To better learn the syntax you can just edit these files directly on github as well. Lastly do the above method with all the individual branch pushes if you wanna get super geeky with it.
 
 * http://dillinger.io/
 
