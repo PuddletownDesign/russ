@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Basic HTML</title>
-</head>
-<body>
-
 This is the title of the page
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -32,7 +23,12 @@ Here is a quote by a wise person
 A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away. 
 
 - Antoine de Saint-Exupery
-	
 
-</body>
-</html>
+This is an html code block
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/styles.css" rel="stylesheet">
+	<title></title>
+</head>
