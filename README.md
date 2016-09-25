@@ -1,40 +1,28 @@
-#Basic HTML 
+#Working with Git
 
-First off keep a detailed text file of all of your notes. Make sure to include things like:
+##1. Create a github account
 
-1. Best practices
-2. Keyboard shortcuts
-3. Code Snippets
-4. Workflow
+http://github.com
 
-Not only is it handy for reference, but for me at least helps me remember and be more methodical. Your notes are your documentation. Try to keep them organized and separated by section. Text editor stuff, HTML, the task, how you did it, shit like that.
+##2. Register your SSH keys with git 
 
-------------------------------------------
+so no login is needed.
 
-Format a the following document in valid HTML using the following tags. Do not concern yourself with how it looks if you preview it. 
+Here's a guide:
 
-* h1-h6
-* p
-* ul
-* ol
-* li
-* blockquote
-* cite
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
--------------------------------------------
+You will learn the basics of SSH doing this. SSH is used to connect to a command prompt on servers.
 
-##helpful tips
+##3. clone the existing repo
 
-1. I use a keyboard shortcut to select whole areas of text or multiple lines and then wrap them with tags.
+I'll send you a repository link. You figure out how to clone the repo to a directory on your machine to work with.
 
-2. Headers
-	* h1 - top level page header, there should only be one. every page should have one.
-	* h2-h6 - these are sub headings.
+##4. Push the files we made to gihhub
 
-3. Every list needs to have a header
+you add the existing files that we made to the directory and push it back to github as a branch. Name the branch 1-learning-git and push that back to github.
 
-4. the cite tag can only be used inside the blockquote tag
+##5. Pull down the new changes once I merge them on my side (I'll let you know)
 
-5. type all tags in lowercase
+You'll want to update your local version once I make changes to the remote version. You'll use the pull command for this.
 
-6. ordered lists (ol) are for items that go in an order. unordered lists (ul) are more general and in no particular order.
