@@ -54,9 +54,9 @@ You want the content tags to closely match the index.html file linked above. Edi
 
 Create a new readme for each of the lessons so far and save the old readme as task.md
 
-1. learning-git
-2. basic-html
-3. markdown
+1. 1-learning-git
+2. 2-basic-html
+3. 3-markdown
 
 make sure when pushing each branch back that you are only pushing that branch, so something like:
 
