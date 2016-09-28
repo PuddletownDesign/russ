@@ -34,9 +34,9 @@ Paragraphs are generated automatically by placing an empty line in between two s
 ### Italic, Bold & Bold Italic
 To make bold, italic or bold italics, wrap the section of text in asterisks. 1 asterisk for italic, 2 for bold and 3 for both.
 
-*\*italic\**    
-**\*\*bold\*\***    
-***\*\*\*bold italic\*\*\****    
+\**italic**    
+\*\***bold****    
+***\*\*\*bold italic******    
 
 <a name="Headers"></a>
 
