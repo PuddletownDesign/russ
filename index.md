@@ -1,28 +1,51 @@
+<<<<<<< HEAD:index.md
 This is the title of the page
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Basic HTML</title>
+</head>
+<body>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+<h1>This is the title of the page</h1>
+>>>>>>> 620c9a69fe07c96a63a4cd74f2f5a4e01c53f449:index.html
 
-Here is a list of things I like
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
 
-cake
-pies
-loafy
+<h2>Here is a list of things I like</h2>
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<ul>
+	<li>cake</li>
+	<li>pies</li>
+	<li>loafs</li>
+</ul>
 
-Here is a list of steps to complete in order
 
-aquire cakes
-look at cakes
-consume the cakes
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<h2>Here is a list of steps to complete in order</h2>
+<ol>
+	<li>aquire cakes</li>
+	<li>look at cakes</li>
+	<li>consume the cakes</li>
+</ol>
 
-Here is a quote by a wise person
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away. 
+<h2>Here is a quote by a wise person</h2>
 
+<blockquote>
+	<p>A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.</p>
+	<cite>- Antoine de Saint-Exupery</cite>
+</blockquote>
+
+<<<<<<< HEAD:index.md
 - Antoine de Saint-Exupery
+=======
+>>>>>>> 620c9a69fe07c96a63a4cd74f2f5a4e01c53f449:index.html
 
 This is an html code block
 
