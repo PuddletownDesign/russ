@@ -10,6 +10,11 @@ It's used for writing html tags for content, not for site structure or any other
 
 Markdown when processed turns into simple HTML. For example the two hash signs turn the above into an h2. three is an h3. Two new blank lines become p tags etc. There's a bunch of different markdown processors, they each have some differences. Slack's is very limited, Githubs is really extensive. Especially with code. make sure to choose the right language on github when adding code blocks.
 
+## Tools 
+
+* dillinger.io - handy online markdown editor that lets you save directly to github
+* [Plasticboy](https://github.com/plasticboy/vim-markdown) - Vim Markdown support
+
 ## Syntax
 
 * [Paragraphs](#Paragraphs)
