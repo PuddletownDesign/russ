@@ -39,7 +39,7 @@ CSS will take some serious reading, but it's very very very simple once you get 
 
 ## Additional reading
 
-Start reading up on CSS and modify this html and css file and experiment. We'll Cover layouts and more advanced features after a little more HTML and some theory.
+Start reading up on CSS and modify this html and css file and experiment after the task is complete. We'll Cover layouts and more advanced features after a little more HTML and some theory.
 
 I suggest reading through at least the long ass first page here:
 
@@ -56,6 +56,8 @@ h2 {
 	color: green;
 }
 ```
+
+![progressive content](https://i.imgur.com/DW8JOmx.gif)
 
 ## ¡ Important !
 
