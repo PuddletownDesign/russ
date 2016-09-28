@@ -132,18 +132,17 @@ Turns into this...
 
 <a name="html"></a>
 
-### Blocks of code
-
-#### Block of HTML code:
-```html
-<html>
-<body>
-
-</body>
-</html>
-```
+### Blocks of code for display
 
 #### Block of Javascript
+
+\```javascript    
+function test() {    
+	this_is_a_fuction();    
+}    
+\```
+
+Turns into this
 
 ```javascript
 function test() {
