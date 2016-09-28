@@ -43,11 +43,11 @@ To make bold, italic or bold italics, wrap the section of text in asterisks. 1 a
 ### Headers
 Headers are created by putting a pound sign in front of a line of text. This text must be on it's own line. The h1 or top level header on a page is the title. You will be defining the H2 - H6 headers. I have not added formatting for headers below h4. You will rarely need that much structure in a document. 
 
-#\#header level 2
-##\#\#header level 3
-###\#\#\#header level 4
-####\#\#\#\#header level 5
-#####\#\#\#\#\#header level 6
+## \#\#header level 2   
+### \#\#\#header level 3   
+#### \#\#\#\#header level 4   
+##### \#\#\#\#\#header level 5   
+###### \#\#\#\#\#\#header level 6   
 *Pardon the formatting, the headers are not set up to be used one after another*.
     
 <a name="Lists"></a>
