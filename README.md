@@ -12,7 +12,7 @@ Markdown when processed turns into simple HTML. For example the two hash signs t
 
 ## Tools 
 
-* dillinger.io - handy online markdown editor that lets you save directly to github
+* [dillinger.io](dillinger.io) - handy online markdown editor that lets you save directly to github
 * [Plasticboy](https://github.com/plasticboy/vim-markdown) - Vim Markdown support
 
 ## Syntax
