@@ -136,11 +136,11 @@ Turns into this...
 
 #### Block of Javascript
 
-\```javascript    
+\`\`\`javascript    
 function test() {    
 	this_is_a_fuction();    
 }    
-\```
+\`\`\`
 
 Turns into this
 
