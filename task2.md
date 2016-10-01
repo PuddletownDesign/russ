@@ -4,7 +4,7 @@ Now we gonna get you up to speed wrapping tags for formatting.
 
 ## Task
 
-Format the 3 following files
+Format the 2 following files
 
 * cats-wiki.html
 * index2.html
