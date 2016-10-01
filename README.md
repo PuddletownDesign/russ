@@ -2,13 +2,18 @@
 
 > spark the wicks an', However I master the trick just like Nixon - Raekwon
 
-Keep taking and organizing more notes. Gotta keep a solid reference for yourself through this. All of these readme files are lacking a little bit.
+
+## Things to look out for
+
+Keep taking and organizing more notes. Gotta keep a solid reference for yourself through this. All of these readme files are lacking a little bit. Keep the markdown notepad open!
 
 I've made each of these into a trello task. Check em off as you go along.
 
 ## Tasks
 
 ### 01-git
+
+Well I've renamed all the branches... You gonna have to deal with that. Protip: you can just delete the old ones in this case. However you have to pull and rebranch them all.
 
 https://github.com/PuddletownDesign/russ/blob/01-git/task2.md
 
