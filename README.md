@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Review time
 
 > spark the wicks an', However I master the trick just like Nixon - Raekwon
@@ -126,6 +125,4 @@ Get the SHA from running `git log` after reset HEAD goes back to previous commit
 8. git add "filename" (adds file to staging area)
 9. git commit -m "added documentation"
 10. git push "repos" "title"
-
->>>>>>> 7526d7fbac7b939960c4449984844f184ea02fbf
 
