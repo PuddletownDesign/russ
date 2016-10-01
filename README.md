@@ -20,3 +20,31 @@ CSS is the styling language used to apply to HTML. You select HTML elements and 
 * `width` - sets the width of the element
 * `text-align` - left, center, right
 * `color` - color of the text in an element
+
+// my notes\\\
+
+## syntax:
+	* example:
+		** tag Selectors:
+			selector {
+					property: value;
+					}
+		** id Selectors:
+			#selector {
+					property: value;
+					}
+			*** can only be used once per page
+				**** on that tip, it's considered good practice to pick your selectors wisely
+		** class selectors:
+			.selector {
+					property: value;
+					}
+
+## stylesheet insertion:
+	* external stylesheet:
+		** <link rel="stylesheet" type="text.css" href="style.css" />
+	* internal style:
+		** <style type="text/css>selector {property: value;}</style>
+	* inline style:
+		** <tag style="property: value">
+
