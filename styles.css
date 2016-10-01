@@ -3,6 +3,7 @@ html {
 	padding: 1em;
 	margin: 0;
 }
+
 body {
 	background-color: #fff;
 	width:30em;
@@ -13,8 +14,12 @@ h1 {
 	color: green;
 }
 h2 {
-	
+	color: orange;	
 }
 blockquote {
-	
+	background-color: #d3d3d3;
+	width:27em;
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
 }
