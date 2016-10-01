@@ -1,4 +1,4 @@
-# Markdown
+# HTML
 
 ## More on git and corrections from 2-basic-html branch
 
