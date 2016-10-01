@@ -1,101 +1,79 @@
-# Git
+# Vim
 
-Git is a distributed versioning tool.
+> spark the wicks an', However I master the trick just like Nixon - Raekwon
 
+Vim is going to be your text editor. We're going to document the shit out of it here. Anytime you learn a new command or snippet add'er here. We may need to break this up into sections for snippets and language and stuff.
 
-## Versioning
+## Basic vim commands
 
-`reset` - resets from an SHA
-	
-Get the SHA from running `git log` after reset HEAD goes back to previous commit. Can be used to reset to a previous commit in your commit history.
+### Insert Mode
 
-**example: `git reset 5d692065cf51a2f50ea8e7b19b5a7ae512f633ba`**
-	
-`reset HEAD [filename]`
+* i	- insert mode
+* v	- visual mode
+* esc	- exit mode
 
-Unstages file changes in the staging area.
-	
-**example `git reset HEAD [filename]`**
+### Insert mode quick entry
 
-`checkout HEAD [filename]`
+* O	- insert with line after
+* o	- insert with line before
+* cw	- replace from cursor to end of word
+* 0	- insert next line before current one
 
-Discards changes in the working directory.
-	
-`git show HEAD`
+### Copy paste, History
 
-Shows the most recent commit
-	
-`git checkout HEAD [filename]`
+* x	- delete character under cursor
+* dd	- delete and copy current line
+* p	- paste before
+* P	- paste after
+* y	- copy (yank)
+* yy	- copy current line
+* u	- undo
+* C-r	- redo 
+* .	- repeat last command
 
-checks out the last unstaged version of the file
+### Repeating
 
+* N-command- repeat command n number of times
 
-## Git branching
+### Basic Navigation
 
-`git branch`:
- 
-Lists all a Git project's branches.
+* j	- down
+* k	- up
+* l	- right
+* h	- left
+* 0	- beginning of line
+* $	- end of line
+* w	- start of the following word
+* e	- go the end of current word
+* W	- go to the start of the following 
+* C-b 	- move back one full screen
+* C-f 	- move forward one full screen
+* C-d 	- move forward 1/2 a screen
+* C-u 	- move back 1/2 a screen
+* N-G	- go to line N
+* gg	- start of file
+* G	- last line of file
+* %	- go to next (, {, [
+* \*, #	- go to next occourrence of word under cursor
+* /	- find
+* x	- delete from in front of cursor
 
-`git branch [branch_name]`
+### Opening, saving files
 
-Creates a new branch.
-
-`git branch -d [branch_name]`
-
-Deletes a branch
-
-`git checkout [branch_name]`
-	
-Used to switch from one branch to another.
-
-`git merge [branch_name]` 
-
-Used to join file changes from one branch to another.
-
-`git branch -d branch_name` 
-
-Deletes the branch specified.
-	
-
-## Git Remote
-
-`git clone [remote_repo] [folder_to_clone_into]`
-
-Creates a local copy of a remote.
-
-`git fetch`
-
-pulls down changes in the remote but doesn't merge them.
-	
-`git merge origin/master`
-	
-performs a fastward style merge, bringing local repo up to the current remote commit.
-	
-`git remote -v`
-
-Lists a Git project's remotes.
-
-`git fetch` 
-
-Fetches work from the remote into the local copy.
-
-`git push origin [branch_name]`
-
-Pushes a local branch to the origin remote.
+* :e	- path -> open
+* :w	- save
+* :saveas	- path/to/file
+* :wq, x	- save/quit
+* :q!	- quit without saving
+* :bn 	- show next file
 
 
-## Repositories w/ GitHub:
+## Snippets
 
-1. create repository link at GitHub website.
-2. git clone <address> while in the destination directory.
-3. cd /reposName/
-4. git remote -v (shows push and pull repos)
-5. git pull --all (before creating branches AS MASTER)
-6. git checkout -b "title" (creates branch and goes)
-7. git checkout "title" (switches branches)
-8. git add "filename" (adds file to staging area)
-9. git commit -m "added documentation"
-10. git push "repos" "title"
-	* mv README.md task.md && touch README.md
+### HTML Snippets
 
+### CSS Snippets
 
+## Installing Plugins
+
+## Best Practices
