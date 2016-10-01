@@ -1,7 +1,5 @@
 # Vim
 
-> spark the wicks an', However I master the trick just like Nixon - Raekwon
-
 Vim is going to be your text editor. We're going to document the shit out of it here. Anytime you learn a new command or snippet add'er here. We may need to break this up into sections for snippets and language and stuff.
 
 ## Basic vim commands
