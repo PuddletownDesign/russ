@@ -94,3 +94,39 @@ HTML is a Markup language used to add semantic structure to a document. You want
 * `<optgroup>`	Specifies an option group
 * `<button>`	Specifies a push button
 
+
+// your notes are actually way better than mine, i just added mine as per the assignment. \\
+
+## Basic HTML:
+
+### best practices
+	* wrap document in ```<html><body></body></html>```
+	* all pages have headers; ```<h1-h?>```, ```<h1>``` is main header, should be only 1 per page.
+	* some tags must be nested inside other tags (i.e. ```<cite>``` must be inside ```<blockquotes>```)
+	* ```<ol>``` is for ordered lists, ```<ul>``` is for unordered lists (think numbers vs. bullet points)
+	* ```<li>``` works as list elements for both ```<ol>``` and ```<ul>```
+	* every list needs to have a header
+	* all tags should be lowercase
+	* don't wrap lists w/ headers; headers should be above list
+	* wrap paragraphs of text with the ```<p></p>``` tag
+	* ```<p>``` for paragraph inside ```<blockquote> <cite>``` inside ```<blockquote>```
+		** indent nested block level tag
+### more basics:
+	* things like ```<html>``` , ```<body>``` are called "elements"
+	* plain text docs saved with ```.html``` extension
+	* required structure: ```<!DOCTYPE html>, <html>, <head>, <body>```
+		** ```<!DOCTYPE html>``` informs browser html version being used; this is the ```latest version``` command
+			*** html5 can still be updated, so delcaring the version isn't necessary as most things will understand the most recent iteration of html5
+		** ```<html>``` signifies the beginning of document
+		** ```<head>``` signifies not visible; the top of the doc, including metadata, doc title (displayed in title bar of browser), links to external files
+		** ```<body>``` signifies all visible content within the page  
+		** attributes	
+			*** basic syntax = ```<"element" href="https://afuckingwebsite.com/">"text link"</"element">``` (no quotes)
+			*** types:
+				**** id = identifies element 
+				**** class = classifies an element
+				**** src = specifies embeddable content
+				**** href = provides hyperlink reference to a linked source
+
+	* keep code organized and legible by indenting nested tags
+
