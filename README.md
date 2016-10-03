@@ -22,18 +22,15 @@ It's extremely rewarding creating long lists of snippets for blocks of code. Sta
 1. Document and understand all of the applicable HTML tags listed below.
 
 2. Format the index.html file with the proper elements. I'll add comments in to give you hints. You will have to properly look up how to use each element. Important ones are:
-
-* header
-* nav
-* main
-* article
-* aside
-* footer
-
-Go through and delete the comments in the code after you're done. Reference my page and your sites html code for hints.
+    * header
+    * nav
+    * main
+    * article
+    * aside
+    * footer
 
 3. Make sure that you're page validates. Don't worry about warnings just errors.
-
+4. Go through and delete the comments in the code after you're done. Reference my page and your sites html code for hints.
 https://validator.w3.org/#validate_by_input
 
 **see maybe if there is an html validator plugin for vim ;)**
