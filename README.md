@@ -5,83 +5,92 @@ Git is a distributed versioning tool.
 
 ## Versioning
 
-`reset` - resets from an SHA
-	
 Get the SHA from running `git log` after reset HEAD goes back to previous commit. Can be used to reset to a previous commit in your commit history.
 
 **example: `git reset 5d692065cf51a2f50ea8e7b19b5a7ae512f633ba`**
+
+
+`reset` - resets from an SHA
 	
+Unstages file changes in the staging area.
+
+**example `git reset HEAD [filename]`**
+
+
 `reset HEAD [filename]`
 
-Unstages file changes in the staging area.
-	
-**example `git reset HEAD [filename]`**
+Discards changes in the working directory.
 
 `checkout HEAD [filename]`
 
-Discards changes in the working directory.
+Shows the most recent commit
+
 	
 `git show HEAD`
 
-Shows the most recent commit
+checks out the last unstaged version of the file
+
 	
 `git checkout HEAD [filename]`
 
-checks out the last unstaged version of the file
 
 
 ## Git branching
 
-`git branch`:
- 
 Lists all a Git project's branches.
 
-`git branch [branch_name]`
+`git branch`:
 
 Creates a new branch.
 
-`git branch -d [branch_name]`
+`git branch [branch_name]`
 
 Deletes a branch
 
-`git checkout [branch_name]`
-	
+`git branch -d [branch_name]`
+
 Used to switch from one branch to another.
 
-`git merge [branch_name]` 
+`git checkout [branch_name]`
+
+Checkout a remote branch from origin
+
+`git checkout -b test origin/test`
 
 Used to join file changes from one branch to another.
 
-`git branch -d branch_name` 
+`git merge [branch_name]` 
 
 Deletes the branch specified.
-	
+
+
+`git branch -d branch_name` 
 
 ## Git Remote
 
+Creates a local copy of a remote.
+
 `git clone [remote_repo] [folder_to_clone_into]`
 
-Creates a local copy of a remote.
+pulls down changes in the remote but doesn't merge them.
 
 `git fetch`
 
-pulls down changes in the remote but doesn't merge them.
+performs a fastward style merge, bringing local repo up to the current remote commit.
 	
 `git merge origin/master`
-	
-performs a fastward style merge, bringing local repo up to the current remote commit.
+
+Lists a Git project's remotes.	
 	
 `git remote -v`
 
-Lists a Git project's remotes.
+Fetches work from the remote into the local copy.
 
 `git fetch` 
 
-Fetches work from the remote into the local copy.
+Pushes a local branch to the origin remote.
 
 `git push origin [branch_name]`
-
-Pushes a local branch to the origin remote.
 
 
 ## Repositories w/ GitHub:
