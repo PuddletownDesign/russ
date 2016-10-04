@@ -12,6 +12,18 @@ At this point you need to be getting your tools sharpened. You want to have memo
 
 It's extremely rewarding creating long lists of snippets for blocks of code. Start that now. It will both speed up your learning and speed greatly. 
 
+
+## Forms and Tables best practices
+
+1. on forms, the label `for` has to have a matching input `id` this ties the two together. The most obvious effect is clicking the label selects the form. 
+2. can't put any other markup like h2 or p within the table (unless it's in a cell)
+3. the sloppy looking `br` tags I use on forms are to insure that even without css they are still usable. `input` and `label` elements are inline and will wrap.
+4. tables work as follows. You have a row `tr` and a cell `td` within the row. That structure at the very least must maintain intact.
+5. tables have optional headers `thead` and footers `tfoot` that can be added. The main data goes into the body `tbody`
+6. note the adjustments to the `colspan` and `rowspan` attributes on two of the tables. Just understand that the count of all cells needs to add up to the same in all rows.
+7. Lastly the forms we'll be using more once we get into javascript and then especially into server side stuff. For now it's just important to know how to build them properly and get them to validate.
+
+
 ## Specifications
 
 * Must have proper doctype and validate (don't worry about warnings)
