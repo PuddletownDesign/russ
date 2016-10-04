@@ -7,6 +7,18 @@ html {
 	text-align: center;
 }	
 
+h1 {
+	color: red;
+	text-aline: center;
+	margin: 0 auto;
+	width: 80%;
+}
+
+img {
+	align: center;
+	padding: em;
+}
+
 ul {
 	list-style: none;
 	text-align: center;
@@ -20,4 +32,10 @@ h2 {
 p {
 	color: #00CC00;
 }
+
+footer {
+	color: red;
+	text-align: center;
+}
+
 
