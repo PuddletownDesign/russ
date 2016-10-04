@@ -1,0 +1,23 @@
+html {
+	background-color: #333;
+	color: #fff;
+	padding: em;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}	
+
+ul {
+	list-style: none;
+	text-align: center;
+	color: #000;
+}
+
+h2 {
+	color: #3666CC;
+}
+
+p {
+	color: #00CC00;
+}
+
