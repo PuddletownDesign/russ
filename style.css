@@ -7,8 +7,17 @@ html {
 	text-align: center;
 }	
 
+form {
+	align: center;
+	color: #66CC00;
+	padding: em;
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+
+}
 h1 {
-	color: red;
+	color: #00FF00; 
 	text-aline: center;
 	margin: 0 auto;
 	width: 80%;
