@@ -1,44 +1,63 @@
 
 
+
 /* ---------------------------
 	  Layout (Start Here)
 --------------------------- */
 
 
 html {
-	
+	font: bold arial, helvetica, sans-serif;
+	color: #000;
+	font-size: large;
 }
 
 body {
-	
+	color: #fff;	
 }
 
 section {
-	
 }
 
 #about {
 	
 }
 #about h1 {
-	
+	align: center;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	background-color: #9c399b;
+	font-size: 125%;
+	padding: 2em 3em 0em 3em;
+
 }
 #about p {
-	
+	font-style: italic;
+	color: #000;
+	font-size: 10%;
+	background-color: #9c399b;
+	padding: 1em 7em 3em 7em;
+	text-align: center;
 }
 #why {
 	
 }
 
 #why blockquote{
+	text-align: center;
+	background-color: #1c1d1d;
+	padding: 3em 6em 3em 6em;
+	color: #fff;
 }
 
 #why blockquote p{
-	
+	font-weight: bolder;	
 }
 
 #why blockquote cite {
-	
+	font-style: bolder italic;
+	padding: 0.25em 1em 3em 1em;
 }
 
 #contact {
@@ -46,24 +65,31 @@ section {
 }
 
 #contact form {
-	
+	background-color: #153d1d;
+	padding: 3em 8em 0em 8em;
 }
 
 #contact form label {
-	
+	font-weight: bolder;
+	font-size: large;
+	text-align: left;
 }
 
 #contact form input {
-	
+	border: 2px solid black;
 }
 #contact form textarea {
-	
+	align: center;
+	border: 2px solid black;
 }
 
 #contact form button {
-	
+	text-align: center;
+	margin: 2em 10em 4em 10em;
+	padding: 1em;
+	font-weight: 900;
+	max-width: 15em;	
+	background-color: #fff;
+	border: 2px solid black;
 }
 
-#footer {
-	
-}
