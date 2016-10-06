@@ -72,7 +72,6 @@ section {
 #contact form label {
 	font-weight: bolder;
 	font-size: large;
-	text-align: left;
 }
 
 #contact form input {
@@ -85,11 +84,21 @@ section {
 
 #contact form button {
 	text-align: center;
-	margin: 2em 10em 4em 10em;
+	align: center;
+	margin: 0em 5em 3em 15em;
 	padding: 1em;
 	font-weight: 900;
 	max-width: 15em;	
 	background-color: #fff;
 	border: 2px solid black;
+}
+
+footer {
+	background-color: #35a129;
+	color: #fff;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 15%;
+	padding: 3em;
 }
 
