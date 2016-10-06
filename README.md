@@ -6,4 +6,4 @@
 
 ##Task 1
 
-https://github.com/PuddletownDesign/russ/blob/master/task1/README.md
+https://github.com/PuddletownDesign/russ/tree/master/task1
