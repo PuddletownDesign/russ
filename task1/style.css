@@ -8,12 +8,11 @@
 
 html {
 	font: bold arial, helvetica, sans-serif;
-	color: #000;
 	font-size: large;
+	align: center;
 }
 
 body {
-	color: #fff;	
 }
 
 section {
@@ -27,18 +26,17 @@ section {
 	color: #000;
 	font-weight: bold;
 	text-align: center;
-	background-color: #9c399b;
-	font-size: 125%;
-	padding: 2em 3em 0em 3em;
-
+	background-color: #884477;
+	font-size: 150%;
+	padding: 2em 3em 1em 3em;
 }
 #about p {
 	font-style: italic;
 	color: #000;
 	font-size: 10%;
-	background-color: #9c399b;
-	padding: 1em 7em 3em 7em;
+	background-color: #884477;
 	text-align: center;
+	padding: 0em 0em 8em 0em;
 }
 #why {
 	
@@ -46,18 +44,18 @@ section {
 
 #why blockquote{
 	text-align: center;
-	background-color: #1c1d1d;
-	padding: 3em 6em 3em 6em;
+	background-color: #222;
 	color: #fff;
+	font-size: 100%;
+	padding: 4em 13em 4em 13em;
 }
 
 #why blockquote p{
-	font-weight: bolder;	
 }
 
 #why blockquote cite {
 	font-style: bolder italic;
-	padding: 0.25em 1em 3em 1em;
+	padding: 1em 6em 4em 6em; 
 }
 
 #contact {
@@ -65,40 +63,39 @@ section {
 }
 
 #contact form {
-	background-color: #153d1d;
-	padding: 3em 8em 0em 8em;
+	background-color: #114422;
+	margin: auto;
+	padding: 4em 27.5em 3em 27.5em;
+	font-size: small;	
 }
 
 #contact form label {
-	font-weight: bolder;
-	font-size: large;
+	color: #fff;
 }
 
 #contact form input {
-	border: 2px solid black;
 }
+
 #contact form textarea {
-	align: center;
-	border: 2px solid black;
 }
 
 #contact form button {
-	text-align: center;
-	align: center;
-	margin: 0em 5em 3em 15em;
-	padding: 1em;
-	font-weight: 900;
-	max-width: 15em;	
+	display: block;
+	margin: auto;
+	max-width: 12em;
 	background-color: #fff;
-	border: 2px solid black;
+	border: 1.8px solid black;
+	padding: 1em;
+	font-weight: bolder;
 }
 
 footer {
-	background-color: #35a129;
+	background-color: #228833;
+	margin: auto;
 	color: #fff;
 	text-align: center;
+	font-size: x-small;
+	padding: 4em;
 	font-weight: bolder;
-	font-size: 15%;
-	padding: 3em;
 }
 
