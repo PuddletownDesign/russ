@@ -1,101 +1,88 @@
-
-
-
-/* ---------------------------
-	  Layout (Start Here)
---------------------------- */
-
-
 html {
-	font: bold arial, helvetica, sans-serif;
-	align: center;
+
 }
 
 body {
+	text-align: center;
 }
 
 section {
+
 }
+
+footer {
+	background-color: #009035;
+	color: #fff;
+	padding: 3em 0;
+}
+
+
+
 
 #about {
-	
+	padding: 4em 0;
+	background-color: #953576;
 }
+
 #about h1 {
-	align: center;
-	color: #000;
 	font-weight: bold;
-	text-align: center;
-	background-color: #884477;
-	font-size: 180%;
-	padding: 2em 3em 1em 3em;
 }
+
 #about p {
 	font-style: italic;
-	color: #000;
-	font-size: 70%;
-	background-color: #884477;
-	text-align: center;
-	padding: 0em 0em 3.5em 0em;
 }
+
 #why {
+	background-color: #222;
+	color: #fff;
+	font-size: 1.7em;
+	padding: 4em;
+}
+
+#why blockquote {
 	
 }
 
-#why blockquote{
-	text-align: center;
-	background-color: #222;
-	color: #fff;
-	font-size: 153%;
-	padding: 3em 5em 4em 5em; 
-}
+#why blockquote p {
 
-#why blockquote p{
-}
+}  
 
 #why blockquote cite {
-	padding: 1em 6em 5em 6em; 
-	font-style: italic;
+
 }
 
 #contact {
-	
+	background-color: #024822;
+	text-align: left;
 }
 
 #contact form {
-	background-color: #114422;
-	margin: auto;
-	padding: 3em 23em 3em 23em;
-	font-size: small;	
+	max-width: 30em;
+	margin: 0 auto;
+	padding: 3em 0;
 }
 
 #contact form label {
 	color: #fff;
+	font-weight: bold;
 }
 
-#contact form input {
+#contact form label input {
+
 }
 
-#contact form textarea {
+#contact form label textarea{
+
 }
 
 #contact form button {
-	display: block;
-	font-size: 110%;
-	margin: auto;
-	max-width: 12em;
 	background-color: #fff;
-	border: 1.8px solid black;
+	font-size: 1.1em;
 	padding: 1em;
-	font-weight: bolder;
+	width: 15em;
+	margin: 0 auto;
+	display: block;
+	font-weight: bold;
 }
 
-footer {
-	background-color: #228833;
-	margin: auto;
-	color: #fff;
-	text-align: center;
-	font-size: small;
-	padding: 2em;
-	font-weight: bolder;
-}
 
