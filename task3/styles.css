@@ -7,95 +7,96 @@ body {
 }
 
 nav {
-
+	background-color: #000;
 }
 
-nav ul {
-	display: none;	
-}
+	nav ul {
 
-nav ul li {
-
-}
+	}
+	nav ul li {
+		display: inline-block;
+		border-right: 1px solid #fff;
+		padding: .5em;
+	}
+	nav ul li a {
+		text-decoration: none;	
+		color: #fff;
+		font-size: small;
+	}
 
 section {
+
+}
+
+#form {
+	background-color: #8d5f07;
+	display: inline-block;
+}
+
+	#form form {
+		display: inline-block;
+
+	}
 	
+	#form h2 {
+
+	}
+
+	#form p {
+		max-width: 40%;
+	}
+
+	#form div {
+
+	}
+
+	#form label {
+
+	}
+
+	#form input {
+
+	}
+
+	#form button {
+
+	}
+
+#table {
+	background-color: #062173;
 }
 
-#form section {
+	#table table {
+
+	}
+	
+	#table thead {
+
+	}
+		#table thead tr {
+
+		}
+
+		#table thead th {
+
+		}
+
+	#table tr {
+
+	}
+
+	#table th {
+
+	}
+
+	#table td {
+
+	}
+
+	#table tbody {
+
+	}
+
+div {
 
 }
-
-#form section p {
-
-}
-
-#form section form {
-
-}
-
-#form label {
-
-}
-
-#form input {
-
-}
-
-#form button {
-
-}
-
-#table section {
-
-}
-
-#table section table {
-
-}
-
-#table section thead {
-
-}
-
-#table section tr {
-
-}
-
-#table section tbody {
-
-}
-
-#table section tbody td {
-
-}
-
-#table section tbody tr {
-
-}
-
-#table section
-
-#table div {
-
-}
-
-#table h2 {
-
-}
-
-#table div p {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
