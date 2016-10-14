@@ -72,13 +72,10 @@ section {
 	div {
 		text-align: left;	
 	}
-		h2{
+		font-size: 0.9em;
+		}
 
-		}
-		p {
-			font-size: 0.9em;
-		}
-}
+
 
 #table {
 	background-color: $blue;
@@ -97,15 +94,18 @@ section {
 		thead {
 			background-color: $l-grey;
 		}
+		tbody,
+		thead {
+
+		}
 		td,
-		th,
-		tr {
-			padding: 0.5em;
-			border-top: 1px solid $blue;
-			border-right: 1px solid $blue;
+		th {
+			padding: 0.5em 0;
+			border: 1px solid $blue;
 			text-align: center;
 		}
-
+		tr {
+		}
 
 
 
