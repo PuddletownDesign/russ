@@ -27,7 +27,7 @@ section {
 	div {
 		display: inline-block;
 		width: 40%;
-		padding: 0 2.5%;
+		padding: 0 2.5% 0 0;
 		vertical-align: top;
 
 	}
@@ -80,7 +80,6 @@ section {
 #table {
 	background-color: $blue;
 	color: $white;
-	display: inline-block;
 }
 	p {
 		font-size: 0.9em;
